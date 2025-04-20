@@ -90,11 +90,12 @@ curl -fsSL https://bun.sh/install | bash
 mkdir my-drosera-trap && cd my-drosera-trap
 ```
 
-**☝ Replace `Github_Email` & `Github_Username`**:
+
 ```bash
 git config --global user.email "Github_Email"
 git config --global user.name "Github_Username"
 ```
+* 🖐 Replace `Github_Email` & `Github_Username`
 
 **Initialize Trap**:
 ```bash
@@ -110,9 +111,9 @@ forge build
 
 **☝ Deploy Trap**:
 ```bash
-DROSERA_PRIVATE_KEY=your_private_key drosera apply
+DROSERA_PRIVATE_KEY= <your_private_key> drosera apply
 ```
-* 🖐 Replace `your_private_key` with your EVM wallet **private key** (Ensure it's funded with **Holesky ETH**)
+* 🖐 Replace `<your_private_key>` with your EVM wallet **private key** (Ensure it's funded with **Holesky ETH**)
 
 When prompted, type `ofc` and press Enter.
 
@@ -147,14 +148,14 @@ nano drosera.toml
 Add the following:
 ```toml
 private_trap = true
-whitelist = ["***<span style=\"color: orange; font-weight: bold;\">your_operator_address</span>***"]
+whitelist = ["your_operator_address"]
 ```
-* 🖐 Replace `***<span style="color: orange; font-weight: bold;">your_operator_address</span>***` with your EVM **public address** (same as your operator address).
+* 🖐 Replace `your_operator_address` with your EVM **public address** (same as your Metamask address).
 
 ```bash
-DROSERA_PRIVATE_KEY=***<span style="color: orange; font-weight: bold;">your_private_key</span>*** drosera apply
+DROSERA_PRIVATE_KEY= your_private_key drosera apply
 ```
-* 🖐 Replace `***<span style="color: orange; font-weight: bold;">your_private_key</span>***` with your EVM wallet **private key**
+* 🖐 Replace `your_private_key` with your EVM wallet **private key**
 
 ---
 
@@ -182,9 +183,9 @@ docker pull ghcr.io/drosera-network/drosera-operator:latest
 
 ## 4. 🚫 Register Operator
 ```bash
-drosera-operator register --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com --eth-private-key ***<span style="color: orange; font-weight: bold;">your_private_key</span>***
+drosera-operator register --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com --eth-private-key your_private_key
 ```
-* 🖐 Replace `***<span style="color: orange; font-weight: bold;">your_private_key</span>***` with your **trap wallet private key**
+* 🖐 Replace `your_private_key` with your **Metamask wallet private key**
 
 ---
 
@@ -219,17 +220,17 @@ ExecStart=$(which drosera-operator) node --db-file-path $HOME/.drosera.db --netw
     --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com \
     --eth-backup-rpc-url https://1rpc.io/holesky \
     --drosera-address 0xea08f7d533C2b9A62F40D5326214f39a8E3A32F8 \
-    --eth-private-key ***<span style="color: orange; font-weight: bold;">your_private_key</span>*** \
+    --eth-private-key your_private_key \
     --listen-address 0.0.0.0 \
-    --network-external-p2p-address ***<span style="color: orange; font-weight: bold;">your_vps_ip</span>*** \
+    --network-external-p2p-address your_vps_ip \
     --disable-dnr-confirmation true
 
 [Install]
 WantedBy=multi-user.target
 EOF
 ```
-* 🖐 Replace `***<span style="color: orange; font-weight: bold;">your_private_key</span>***` with your EVM wallet **private key**
-* 🖐 Replace `***<span style="color: orange; font-weight: bold;">your_vps_ip</span>***` with your **VPS IP**
+* 🖐 Replace `your_private_key` with your EVM wallet **private key**
+* 🖐 Replace `your_vps_ip` with your **VPS IP**
 
 #### 🛠️ 6-2: Start SystemD
 ```bash
@@ -253,8 +254,8 @@ cd Drosera-Network
 cp .env.example .env
 nano .env
 ```
-* 🖐 Replace `your_evm_private_key` with `***<span style="color: orange; font-weight: bold;">your_private_key</span>***`
-* 🖐 Replace `your_vps_public_ip` with `***<span style="color: orange; font-weight: bold;">your_vps_ip</span>***`
+* 🖐 Replace `your_evm_private_key` with `your_private_key`
+* 🖐 Replace `your_vps_public_ip` with `your_vps_ip`
 
 #### 🚀 6-2: Run Operator
 ```bash
@@ -285,3 +286,4 @@ Dashboard > Open your Trap > Click `Opt-in` to connect operator.
 Check dashboard: you should see 🟢 **green blocks** showing node activity.
 
 ---
+🚀 You're all set! Enjoy farming with Drosera!
