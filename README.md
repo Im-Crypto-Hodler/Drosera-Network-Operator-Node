@@ -111,7 +111,7 @@ forge build
 
 **☝ Deploy Trap**:
 ```bash
-DROSERA_PRIVATE_KEY= <your_private_key> drosera apply
+DROSERA_PRIVATE_KEY=<your_private_key> drosera apply
 ```
 * 🖐 Replace `<your_private_key>` with your EVM wallet **private key** (Ensure it's funded with **Holesky ETH**)
 
@@ -153,7 +153,7 @@ whitelist = ["your_operator_address"]
 * 🖐 Replace `your_operator_address` with your EVM **public address** (same as your Metamask address).
 
 ```bash
-DROSERA_PRIVATE_KEY= your_private_key drosera apply
+DROSERA_PRIVATE_KEY=your_private_key drosera apply
 ```
 * 🖐 Replace `your_private_key` with your EVM wallet **private key**
 
@@ -183,9 +183,9 @@ docker pull ghcr.io/drosera-network/drosera-operator:latest
 
 ## 4. 🚫 Register Operator
 ```bash
-drosera-operator register --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com --eth-private-key your_private_key
+drosera-operator register --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com --eth-private-key <your_private_key>
 ```
-* 🖐 Replace `your_private_key` with your **Metamask wallet private key**
+* 🖐 Replace `<your_private_key>` with your **Metamask wallet private key**
 
 ---
 
@@ -220,17 +220,18 @@ ExecStart=$(which drosera-operator) node --db-file-path $HOME/.drosera.db --netw
     --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com \
     --eth-backup-rpc-url https://1rpc.io/holesky \
     --drosera-address 0xea08f7d533C2b9A62F40D5326214f39a8E3A32F8 \
-    --eth-private-key your_private_key \
+    --eth-private-key <your_private_key> \
     --listen-address 0.0.0.0 \
-    --network-external-p2p-address your_vps_ip \
+    --network-external-p2p-address <your_vps_ip> \
     --disable-dnr-confirmation true
 
 [Install]
 WantedBy=multi-user.target
 EOF
 ```
-* 🖐 Replace `your_private_key` with your EVM wallet **private key**
-* 🖐 Replace `your_vps_ip` with your **VPS IP**
+* 🖐 Replace `<your_private_key>` with your EVM wallet **private key**
+* 🖐 Replace `<your_vps_ip>` with your **VPS IP**
+* remove <> also 
 
 #### 🛠️ 6-2: Start SystemD
 ```bash
@@ -246,7 +247,7 @@ journalctl -u drosera.service -f
 
 ---
 
-### 🔢 Method 1: Docker
+### 🔢 Method 1(if method 2 not working): Docker
 #### 🌐 6-1: Configure Docker
 ```bash
 git clone https://github.com/0xmoei/Drosera-Network
