@@ -1,8 +1,8 @@
-# Drosera-Network-Operator-Node
-
+# 🖥️Drosera-Network-Operator-Node-Guide🖥️ 
 
  **🪂🪂 Follow our X for More Early Alpha: [Twitter](https://x.com/imcryptohodler)**
 ---
+![image](https://github.com/user-attachments/assets/76a3d3bb-04a1-49a2-b2d7-2c3f195b4a8f)
 
 # Recommended System Requirements
 * 💻 2 CPU Cores
@@ -11,15 +11,14 @@
 
 ## Buy VPS 🛒💻📡 : [$5/Month](https://xorek.cloud/?from=25158)
 ---
-  🖥️💸 Buy VPS : [Xorek VPS service](https://xorek.cloud/?from=25158)  
-  Select The VPS( 2 cpu core / 4GB ram)  
-  Select Ubuntu 24.04    
-  Pay via $USDT -bep20  
-  Wait for 5 Min  
-  Activated ✅  
+ 🖥️ Select the VPS (2 CPU Core / 4GB RAM)  
+ 🐧 Select Ubuntu 24.04  
+ 💰 Pay via $USDT (BEP20)  
+ ⏳ Wait for 5 minutes  
+ ✅ VPS Activated  
 
 
-# Start Coding 👨‍💻
+# <h1 align="center">Start Coding 👨‍💻</h1>
 
 ### ✏️ Open PuTTY 
 Enter your IP from VPS and log in with PuTTY
@@ -295,6 +294,7 @@ Dashboard > Open your Trap > Click `Opt-in` to connect operator.
 ## 8. 🚗 Node Liveness
 Check dashboard: you should see 🟢 **green blocks** showing node activity.
 
-![image](https://github.com/user-attachments/assets/9ad08265-0ea4-49f7-85e5-316677245254)
+![Screenshot 2025-04-20 225746](https://github.com/user-attachments/assets/6f4dd9bd-d8ae-4223-91b5-3f5e38adc758)
+
 ---
 🚀 You're all set! Enjoy farming with Drosera!
