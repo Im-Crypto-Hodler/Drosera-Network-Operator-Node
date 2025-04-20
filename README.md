@@ -9,10 +9,10 @@
 * 📊 4 GB RAM
 * 🖳️ 20 GB Disk Space
 
-## Buy VPS : [$5/Month](https://xorek.cloud/?from=25158)
+## Buy VPS 🛒💻📡 : [$5/Month](https://xorek.cloud/?from=25158)
 ---
-  Open the link : [Xorex](https://xorek.cloud/?from=25158)  
-  Select The VPS   
+  🖥️💸 Buy VPS : [Xorek VPS service](https://xorek.cloud/?from=25158)  
+  Select The VPS( 2 cpu core / 4GB ram)   
   Pay via $USDT -bep20  
   Wait for 5 Min  
   Activated ✅  
