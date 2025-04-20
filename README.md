@@ -1,8 +1,7 @@
 # Drosera-Network-Operator-Node
 
-🪂🪂
 
-**❤️❤️Follow our X for More Early Alpha: [Twitter](https://x.com/imcryptohodler)**
+** 🪂🪂 Follow our X for More Early Alpha: [Twitter](https://x.com/imcryptohodler)**
 ---
 
 # Recommended System Requirements
@@ -111,9 +110,9 @@ forge build
 
 **☝ Deploy Trap**:
 ```bash
-DROSERA_PRIVATE_KEY=***<span style="color: orange; font-weight: bold;">your_private_key</span>*** drosera apply
+DROSERA_PRIVATE_KEY=your_private_key drosera apply
 ```
-* 🖐 Replace `***<span style="color: orange; font-weight: bold;">your_private_key</span>***` with your EVM wallet **private key** (Ensure it's funded with **Holesky ETH**)
+* 🖐 Replace `your_private_key` with your EVM wallet **private key** (Ensure it's funded with **Holesky ETH**)
 
 When prompted, type `ofc` and press Enter.
 
@@ -126,7 +125,7 @@ When prompted, type `ofc` and press Enter.
 ---
 
 ## 4. 🌿 Bloom Boost Trap
-Go to your Trap on Dashboard and click `Send Bloom Boost`. Deposit some Holesky ETH.
+Go to your Trap on Dashboard and click `Send Bloom Boost`. Deposit some Holesky ETH ( Min. 2 ).
 
 ---
 
