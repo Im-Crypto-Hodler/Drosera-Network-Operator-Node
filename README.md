@@ -12,7 +12,8 @@
 ## Buy VPS 🛒💻📡 : [$5/Month](https://xorek.cloud/?from=25158)
 ---
   🖥️💸 Buy VPS : [Xorek VPS service](https://xorek.cloud/?from=25158)  
-  Select The VPS( 2 cpu core / 4GB ram)   
+  Select The VPS( 2 cpu core / 4GB ram)  
+  Select Ubuntu 24.04    
   Pay via $USDT -bep20  
   Wait for 5 Min  
   Activated ✅  
@@ -117,17 +118,22 @@ DROSERA_PRIVATE_KEY=<your_private_key> drosera apply
 
 When prompted, type `ofc` and press Enter.
 
+![image](https://github.com/user-attachments/assets/6d1161f1-4423-4ce6-a1a2-77ce567186dc)
+
+Just copy and save this Address (Don't use it anywhere)
 ---
 
 ## 3. 🔎 Check Trap in Dashboard
 1. Connect your Drosera EVM wallet: https://app.drosera.io/
 2. Click on `Traps Owned` to view deployed Traps or search by Trap address.
 
+![image](https://github.com/user-attachments/assets/9c39eea0-0aaf-417d-8552-765ff33f8a5e)
 ---
 
 ## 4. 🌿 Bloom Boost Trap
 Go to your Trap on Dashboard and click `Send Bloom Boost`. Deposit some Holesky ETH ( Min. 2 ).
 
+![image](https://github.com/user-attachments/assets/2f5216fd-fdf9-4732-96d0-959b3fbce479)
 ---
 
 ## 5. 🔄 Fetch Blocks
@@ -157,6 +163,7 @@ DROSERA_PRIVATE_KEY=your_private_key drosera apply
 ```
 * 🖐 Replace `your_private_key` with your EVM wallet **private key**
 
+![image](https://github.com/user-attachments/assets/9ae6d58e-3be7-4d0d-9c4b-3b486224df4e)
 ---
 
 ## 2. 💾 Operator CLI
@@ -244,7 +251,7 @@ sudo systemctl start drosera
 ```bash
 journalctl -u drosera.service -f
 ```
-
+![image](https://github.com/user-attachments/assets/a4ad6e66-4749-4780-9347-c878399d4067)
 ---
 
 ### 🔢 Method 1(if method 2 not working): Docker
@@ -267,6 +274,7 @@ docker compose up -d
 ```bash
 docker compose logs -f
 ```
+![image](https://github.com/user-attachments/assets/2ec4d181-ac60-4702-b4f4-9722ef275b50)
 
 #### ⚠️ Optional Docker Commands
 ```bash
@@ -281,10 +289,12 @@ docker compose up -d
 ## 7. 🛋️ Opt-in Trap
 Dashboard > Open your Trap > Click `Opt-in` to connect operator.
 
+![image](https://github.com/user-attachments/assets/5189b5cb-cb46-4d10-938a-33f71951dfc2)
 ---
 
 ## 8. 🚗 Node Liveness
 Check dashboard: you should see 🟢 **green blocks** showing node activity.
 
+![image](https://github.com/user-attachments/assets/9ad08265-0ea4-49f7-85e5-316677245254)
 ---
 🚀 You're all set! Enjoy farming with Drosera!
