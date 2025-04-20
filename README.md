@@ -1,7 +1,7 @@
 # Drosera-Network-Operator-Node
 
 
-** 🪂🪂 Follow our X for More Early Alpha: [Twitter](https://x.com/imcryptohodler)  **
+ **🪂🪂 Follow our X for More Early Alpha: [Twitter](https://x.com/imcryptohodler)**
 ---
 
 # Recommended System Requirements
