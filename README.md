@@ -11,6 +11,13 @@
 
 ## Buy VPS 🛒💻📡 : [$5/Month](https://xorek.cloud/?from=25158)
 ---
+### Guide yo buy vps : 
+[Youtube Guide](youtu.be/UeYn4zD97pg) 
+
+![image](https://github.com/user-attachments/assets/655b108f-4652-48d6-91e6-9218d05ef149)
+
+---
+
  🖥️ Select the VPS (2 CPU Core / 4GB RAM)  
  🐧 Select Ubuntu 24.04  
  💰 Pay via $USDT (BEP20)  
