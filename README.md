@@ -245,6 +245,8 @@ EOF
 * 🖐 Replace `<your_private_key>` with your EVM wallet **private key**
 * 🖐 Replace `<your_vps_ip>` with your **VPS IP**
 * remove <> also 
+* Always use keyboard & it's arrow key "up-down-left-right" 
+* After changes : "ctrl+X" then "Y" then enter
 
 #### 🛠️ 6-2: Start SystemD
 ```bash
@@ -257,7 +259,9 @@ sudo systemctl start drosera
 ```bash
 journalctl -u drosera.service -f
 ```
-![image](https://github.com/user-attachments/assets/a4ad6e66-4749-4780-9347-c878399d4067)
+![image](https://github.com/user-attachments/assets/a4ad6e66-4749-4780-9347-c878399d4067) 
+
+>  No problem if you are receiveing `WARN drosera_services::network::service: Failed to gossip message: InsufficientPeers`
 ---
 
 ### 🔢 Method 1(if method 2 not working): Docker
