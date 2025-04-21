@@ -11,10 +11,11 @@
 
 ## Buy VPS 🛒💻📡 : [$5/Month](https://xorek.cloud/?from=25158)
 ---
-### Guide yo buy vps : 
+### Guide to buy vps : 
 [Youtube Guide](youtu.be/UeYn4zD97pg) 
 
 ![image](https://github.com/user-attachments/assets/655b108f-4652-48d6-91e6-9218d05ef149)
+
 
 ---
 
@@ -23,6 +24,10 @@
  💰 Pay via $USDT (BEP20)  
  ⏳ Wait for 5 minutes  
  ✅ VPS Activated  
+
+---
+* 👛 Create a new account 
+* 💧 Take faucet : https://cloud.google.com/application/web3/faucet/ethereum/holesky 
 
 
 # <h1 align="center">Start Coding 👨‍💻</h1>
